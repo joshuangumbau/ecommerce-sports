@@ -121,7 +121,7 @@ setdetails(values => ({...values, email: ev.target.value}))
 <p className='text-left text-[16px] mb-2'>Enter You Mobile Number</p>
 <input onChange={(ev)=>{
 setdetails(values => ({...values, mobile: ev.target.value}))
-}}  type="tel" name="tel"  className="mt-1 px-3 py-4  border  border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="+91 91746 28282" />   
+}}  type="tel" name="tel"  className="mt-1 px-3 py-4  border  border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="+254 711647510" />   
 </div>            
 
     </div>
@@ -162,21 +162,21 @@ placeholder="124 , ABC Street "
 <p className='text-left text-[16px] mb-2'>Enter Your State</p>
 <input type="name" name="name"  onChange={(ev)=>{
 setdetails(values => ({...values, state: ev.target.value}))
-}}  className="mt-1 px-3 py-4  border  border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Maharashtra" />   
+}}  className="mt-1 px-3 py-4  border  border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Mombasa" />   
 </div>            
 
 <div className="input mt-[12px] ">
 <p className='text-left text-[16px] mb-2'>Enter Your City</p>
 <input type="name" name="name" onChange={(ev)=>{
 setdetails(values => ({...values, city: ev.target.value}))
-}}  className="mt-1 px-3 py-4  border  border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Pune" />   
+}}  className="mt-1 px-3 py-4  border  border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Nairobi" />   
 </div>            
 
 <div className="input mt-[12px] md:col-span-2 ">
 <p className='text-left text-[16px] mb-2'>Enter Your Zip Code</p>
 <input type="name" name="name" onChange={(ev)=>{
 setdetails(values => ({...values, zip: ev.target.value}))
-}}   className="mt-1 px-3 py-4  border  border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="411041" />   
+}}   className="mt-1 px-3 py-4  border  border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="00100" />   
 </div>            
 <button  onClick={()=>{
 CheckAddress()
@@ -194,7 +194,7 @@ CheckAddress()
 
             <div className="border-t border-b py-4 my-2  w-full grid grid-cols-[5fr_7fr]">
             <h1 className='text-left font-semibold opacity-60 text-md'>Total Bill</h1>
-            <h1 className='text-right opacity-50 '> - ₹ {total+99+150}</h1>
+            <h1 className='text-right opacity-50 '> - ksh {total+99+150}</h1>
  
  
             </div>
@@ -248,7 +248,7 @@ setcard(values => ({...values, cvv: ev.target.value}))
 
          <button onClick={()=>{
         CheckCard()
-         }} className="w-full col-span-2 mt-4 md:text-[15px] md:px-0 cta bg-[#405DF8] text-[#fff] rounded-md px-10 hover:bg-black py-3 text-[18px] "> Confirm Payment Of  <span className='font-bold'>₹ {total+99+150}</span> </button>
+         }} className="w-full col-span-2 mt-4 md:text-[15px] md:px-0 cta bg-[#405DF8] text-[#fff] rounded-md px-10 hover:bg-black py-3 text-[18px] "> Confirm Payment Of  <span className='font-bold'>ksh {total+99+150}</span> </button>
 
 </div>
 

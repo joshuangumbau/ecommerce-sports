@@ -86,12 +86,12 @@ setMRP(rndInt)
         
         <div className="flex md:grid md:grid-cols-2 items-center price border-t border-b  py-5 my-5">
           <div className="w-[max-content] px-10 py-3   cursor-pointer rounded-md text-white box text-xl font-bold bg-gradient-to-r from-violet-500 to-fuchsia-500">
-          ₹ {product.price}
+          ksh {product.price}
           </div>
           <div className="w-[max-content] px-10 py-3   cursor-pointer rounded-md text-[#1b1b1b] box text-xl font-medium">
-         MRP ₹ {MRP}
+         MRP ksh {MRP}
           </div>
-          <p className='md:col-span-2 md:mt-4'>You can save <span className='font-bold'>₹ {MRP-product.price}</span> on this deal order now   !! </p>
+          <p className='md:col-span-2 md:mt-4'>You can save <span className='font-bold'>ksh {MRP-product.price}</span> on this deal order now   !! </p>
         </div>
 
         <div className="store">

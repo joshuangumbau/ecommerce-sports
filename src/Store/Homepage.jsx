@@ -50,7 +50,7 @@ function Homepage() {
                     <h4 className='text-left font-semibold opacity-50 mb-2  capitalize'>{ele.category}</h4>
                      <div className="grid gap-3 w-full my-2 grid-cols-[4fr_8fr]">
                         <div className='flex items-center'>
-                        <h1 className='text-left  font-semibold text-xl'>₹ {ele.price} </h1>
+                        <h1 className='text-left  font-semibold text-xl'>ksh {ele.price} </h1>
                         </div>
                          <div>
                          <button className ="lg:text-sm   px-2 cta md:text-sm md:px-2 bg-[#405DF8] w-full text-[#fff] rounded-md  hover:bg-black py-2 font-semibold text-[16px] ">View Product <i className='bx bxs-right-arrow-alt text-xl align-middle'></i> </button>
@@ -82,7 +82,7 @@ function Homepage() {
                     <h4 className='text-left font-semibold opacity-50 mb-2  capitalize'>{ele.category}</h4>
                      <div className="grid gap-3 w-full my-2 grid-cols-[4fr_8fr]">
                         <div className='flex items-center'>
-                        <h1 className='text-left  font-semibold text-xl'>₹ {ele.price} </h1>
+                        <h1 className='text-left  font-semibold text-xl'>ksh {ele.price} </h1>
                         </div>
                          <div>
                          <button className ="lg:text-sm   px-2 cta md:text-sm md:px-2 bg-[#405DF8] w-full text-[#fff] rounded-md  hover:bg-black py-2 font-semibold text-[16px] ">View Product <i className='bx bxs-right-arrow-alt text-xl align-middle'></i> </button>
@@ -114,7 +114,7 @@ function Homepage() {
                     <h4 className='text-left font-semibold opacity-50 mb-2  capitalize'>{ele.category}</h4>
                      <div className="grid gap-3 w-full my-2 grid-cols-[4fr_8fr]">
                         <div className='flex items-center'>
-                        <h1 className='text-left  font-semibold text-xl'>₹ {ele.price} </h1>
+                        <h1 className='text-left  font-semibold text-xl'>ksh {ele.price} </h1>
                         </div>
                          <div>
                          <button className ="lg:text-sm   px-2 cta md:text-sm md:px-2 bg-[#405DF8] w-full text-[#fff] rounded-md  hover:bg-black py-2 font-semibold text-[16px] ">View Product <i className='bx bxs-right-arrow-alt text-xl align-middle'></i> </button>
@@ -147,7 +147,7 @@ function Homepage() {
                     <h4 className='text-left font-semibold opacity-50 mb-2  capitalize'>{ele.category}</h4>
                      <div className="grid gap-3 w-full my-2 grid-cols-[4fr_8fr]">
                         <div className='flex items-center'>
-                        <h1 className='text-left  font-semibold text-xl'>₹ {ele.price} </h1>
+                        <h1 className='text-left  font-semibold text-xl'>ksh {ele.price} </h1>
                         </div>
                          <div>
                          <button className ="lg:text-sm   px-2 cta md:text-sm md:px-2 bg-[#405DF8] w-full text-[#fff] rounded-md  hover:bg-black py-2 font-semibold text-[16px] ">View Product <i className='bx bxs-right-arrow-alt text-xl align-middle'></i> </button>
