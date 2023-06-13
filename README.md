@@ -1,3 +1,6 @@
+
+![Screenshot from 2023-06-13 14-28-29](https://github.com/joshuangumbau/ecommerce-sports/assets/50984531/35b72cf8-fbc9-4f42-b8e1-f47b6a6a396f)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
